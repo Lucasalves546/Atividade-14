@@ -1,0 +1,103 @@
+body{
+
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    background-color:  rgb(245, 208, 0);
+   font-family: sans-serif;
+   line-height: 1.5 ;
+   color: white;
+  
+}
+
+
+.menu-v{
+    width: 15px;
+    display:inline-block;
+    padding: 8px 16px;
+    width:15%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+	right: 82%;
+    z-index: -1;
+    background: #00000047;
+    padding: 5px 12px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+  }
+
+
+.menu{
+	width:97%;
+	background-color:#00000047;
+    display:block;
+	padding: 2px 9px;
+    margin-top: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+li {
+    list-style-type: none;
+  }
+a:hover{
+    background-color: beige;
+}
+
+
+main{
+    background: #00000047;
+    padding: 3px 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.Condeudo{
+    text-align: center;
+}
+
+.barra-lateral{
+	
+    width:15%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+	right: 10px;
+    z-index: -1;
+    background: #00000047;
+    padding: 5px 12px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.rodape{
+	padding:20px;
+	text-align:center;
+    background: #00000047;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+@media screen and (max-widht: 768px){
+    section, aside {
+        width: 100px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-widht: 600px){
+    nav li{
+        float: none;
+        text-align: center;
+        width: 100;
+    }
+    footer p{
+        display: none;
+    }
+}
